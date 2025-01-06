@@ -1,0 +1,103 @@
+/* styles.css */
+html, body {
+  height: 100%; /* Sayfa yüksekliğini %100 yaparak tam ekran yapılmasını sağlıyoruz */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Yatayda ortalar */
+  align-items: center;     /* Dikeyde ortalar */
+  background-color: #fbc6d9; /* Açık pembe renk */
+  position: relative;
+}
+
+.container {
+  position: fixed; /* Kutuyu sabitler */
+  top: 50%; /* Yatayda ve dikeyde ortalar */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px; /* Sabit genişlik */
+  height: 500px; /* Sabit yükseklik */
+  padding: 30px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  background-size: cover; /* Arka planın kaplamasını sağlar */
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* İçeriği üst ve alt kısımlarda eşit boşlukla yerleştirir */
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.search-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  flex: 1; /* Form elemanlarının boşlukları eşitlemesi için esneklik kazandırır */
+}
+
+.search-input {
+  padding: 10px;
+  width: 80%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.search-input:focus {
+  border-color: #ff69b4;
+  box-shadow: 0 0 5px rgba(255, 105, 180, 0.5);
+  outline: none;
+}
+
+.search-button {
+  padding: 12px;
+  width: 50%;
+  background: linear-gradient(135deg, #ff69b4, #ff1493);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.search-button:hover {
+  background: linear-gradient(135deg, #ff1493, #c71585);
+}
+
+.weather-data {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.weather-data h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #ff69b4;
+}
+
+.weather-data p {
+  font-size: 1.2rem;
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+.loading {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ff69b4;
+}
