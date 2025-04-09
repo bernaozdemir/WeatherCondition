@@ -1,3 +1,35 @@
+# 🌤️ Weather App
+
+A weather website built with **HTML**, **CSS**, **JavaScript**, and **React** that shows real-time weather updates for any city worldwide.
+
+## 🚀 Features
+
+- 🔍 Search weather by city name  
+- 🌡️ Display temperature, weather conditions, humidity, and wind speed  
+- 🕒 Real-time data fetched from a weather API  
+- 🎨 Clean and user-friendly interface  
+- ⚙️ Built using React components and hooks  
+
+## 🛠️ Technologies Used
+
+- HTML  
+- CSS  
+- JavaScript  
+- React  
+- OpenWeatherMap API (or whichever API you used)
+
+## 📷 Preview
+
+*Add a screenshot or GIF of your app here if you have one!*
+
+## 📦 Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/bernaozdemir/WeatherConditione.git
+
+-------------------------------------------------------
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
